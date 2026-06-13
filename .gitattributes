@@ -1,0 +1,2 @@
+* text=auto eol=lf
+*.duckdb filter=lfs diff=lfs merge=lfs -text
