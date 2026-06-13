@@ -77,7 +77,7 @@ The platform is designed for business analysts, investors, consultants, founders
 
 1. **Clone or navigate to project directory**
    ```bash
-   cd e:\MCA_COMPANY_VISU
+   cd UdyamIQ
    ```
 
 2. **Create virtual environment (optional but recommended)**
@@ -137,9 +137,9 @@ mca_company_visu/
 │   └── config.toml               # Theme and server settings
 │
 ├── data/                          # Data directory
-│   └── company_master_data_2025_06_30.csv
+│   └── company_master_data_2025_06_30.duckdb
 │
-└── company_master_data_2025_06_30.csv  # Main data file
+└── company_master_data_2025_06_30.csv  # Main data file (removed because of lfs upload prob)
 ```
 
 ## Data Fields
@@ -324,6 +324,10 @@ This project is provided as-is for educational and analytical purposes.
 
 ---
 
-**Last Updated**: June 30, 2025
-**Data Updated**: June 30, 2025
+**Last Updated**: June 13, 2026
+**Data Updated**: June 30, 2025 (latest available)
 **Status**: Production Ready
+
+---
+
+**Made with ❤️ by Anurag Panda**
